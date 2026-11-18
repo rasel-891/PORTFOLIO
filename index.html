@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rasel Ahmed - Web Developer Portfolio">
+  <title>Rasel Ahmed | Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home"><span class="brand-mark">RA</span><span>Rasel <b>Ahmed</b></span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+    <nav class="nav-links">
+      <a class="active" href="#home">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#skills">SKILL</a>
+      <a href="#projects">PROJECTS</a>
+      <a href="#contact">CONTACT</a>
+      <button class="theme-toggle" aria-label="Toggle color theme"><i class="fa-regular fa-sun"></i></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <p class="eyebrow">はじめまして</p>
+          <h1>RASEL <span>AHMED</span></h1>
+          <h2>Web Developer</h2>
+          <p class="hero-description">日本のIT企業で、フロントエンドからバックエンドまで<br class="desktop-break">できるフルスタックエンジニアを目指しています。</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects"><i class="fa-solid fa-code"></i> View My Projects</a>
+            <a class="button button-outline" href="#contact"><i class="fa-regular fa-envelope"></i> Contact Me</a>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/rasel-891" target="_blank" rel="noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <!-- Replace images/profile-placeholder.jpg with your own photo -->
+          <div class="portrait-frame">
+            <img src="images/profile.jpg" alt="Rasel Ahmed profile photo"
+                 onerror="this.style.display='none'; this.parentElement.classList.add('photo-placeholder'); this.parentElement.innerHTML='<span class=&quot;placeholder-icon&quot;><i class=&quot;fa-solid fa-user&quot;></i></span><span class=&quot;placeholder-label&quot;>Your Photo</span>';">
+          </div>
+          <p class="signature">Rasel Ahmed</p>
+          <span class="signature-line"></span>
+        </div>
+        <p class="hero-quote">「継続は力なり」<small>コツコツ続けることで<br>きっと夢は叶う。</small></p>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div>
+          <h2 class="section-title"><i class="fa-regular fa-user"></i> About Me</h2>
+          <p class="about-text">はじめまして、ラセルです。バングラデシュ出身で、現在は日本でITを勉強しています。HTML、CSS、JavaScriptを中心に学習し、Web開発のスキルを身につけています。将来は日本のIT企業でWebエンジニアとして働き、フルスタックエンジニアを目指しています。</p>
+          <div class="about-facts">
+            <div><i class="fa-solid fa-location-dot"></i><span><small>From</small>Bangladesh</span></div>
+            <div><i class="fa-solid fa-graduation-cap"></i><span><small>Education</small>IT College (Japan)</span></div>
+            <div><i class="fa-solid fa-bullseye"></i><span><small>Goal</small>Full Stack Engineer</span></div>
+          </div>
+        </div>
+        <div class="journey-card">
+          <h3><i class="fa-regular fa-calendar-days"></i> My Journey</h3>
+          <div class="timeline">
+            <div class="timeline-item"><span class="timeline-dot"></span><p><b>2022</b><br>Come to Japan</p></div>
+            <div class="timeline-item"><span class="timeline-dot"></span><p><b>2022 – 2024</b><br>Japanese Language School (JLPT N3)</p></div>
+            <div class="timeline-item"><span class="timeline-dot"></span><p><b>2024 – Present</b><br>IT College (3rd year / 3-year course)</p></div>
+            <div class="timeline-item"><span class="timeline-dot"></span><p><b>2027 (Planned)</b><br>Graduation &amp; Job in Japan</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading-row">
+          <div>
+            <h2 class="section-title"><i class="fa-solid fa-code"></i> Skills</h2>
+            <p class="section-subtitle">現在学習中のスキルと、今後さらにスキルアップしていきます。</p>
+          </div>
+          <span class="focus-note"><span></span> Focus: HTML / CSS / JavaScript</span>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card"><i class="fa-brands fa-html5 skill-icon html-icon"></i><h3>HTML</h3><p>基本的な構造・タグ</p></article>
+          <article class="skill-card"><i class="fa-brands fa-css3-alt skill-icon css-icon"></i><h3>CSS</h3><p>レイアウト・デザイン</p></article>
+          <article class="skill-card"><i class="fa-brands fa-js skill-icon js-icon"></i><h3>JavaScript</h3><p>動的な処理・制御</p></article>
+          <article class="skill-card"><i class="fa-brands fa-git-alt skill-icon git-icon"></i><h3>Git &amp; GitHub</h3><p>バージョン管理・共同開発</p></article>
+          <article class="skill-card"><i class="fa-brands fa-python skill-icon python-icon"></i><h3>Python</h3><p>基礎を学習中</p></article>
+          <article class="skill-card"><i class="fa-solid fa-database skill-icon db-icon"></i><h3>SQL</h3><p>これから学習予定</p></article>
+        </div>
+        <p class="tools-note">Tools I Use: <span>VS Code</span> <span>GitHub Desktop</span></p>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading-row">
+          <div>
+            <h2 class="section-title"><i class="fa-regular fa-folder"></i> Projects</h2>
+            <p class="section-subtitle">これまでに作った作品です。今後もどんどん増やしていきます。</p>
+          </div>
+          <a class="text-link" href="https://github.com/rasel-891" target="_blank" rel="noreferrer">View All Projects <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <a class="project-preview amazon-preview" href="https://rasel-891.github.io/Amazon-Clone/" target="_blank" rel="noreferrer" aria-label="Open Amazon Clone live demo">
+              <div class="fake-amazon-top"><strong>amazon<span>.co.jp</span></strong><span class="fake-search">Search Amazon.co.jp <i class="fa-solid fa-magnifying-glass"></i></span><i class="fa-solid fa-cart-shopping"></i></div>
+              <div class="amazon-banner"><span>もっと、<br>好きなものを。</span></div>
+              <div class="fake-products"><span>🎧</span><span>💻</span><span>⌚</span><span>📷</span></div>
+            </a>
+            <div class="project-info">
+              <h3>Amazon Clone</h3>
+              <div class="tags"><span>HTML</span><span>CSS</span></div>
+              <p>Amazon.co.jpを参考に作ったWebサイトのクローンです。レスポンシブデザインに対応し、ヘッダー、ナビゲーション、商品一覧、フッターなどを実装しています。</p>
+              <a class="project-link" href="https://github.com/rasel-891/Amazon-Clone" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i> GitHub Repository <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <a class="button button-small" href="https://rasel-891.github.io/Amazon-Clone/" target="_blank" rel="noreferrer">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="calculator-preview" aria-label="Calculator project preview">
+              <div class="calc-title">Calculator</div><div class="calc-display">0</div>
+              <div class="calc-buttons">
+                <span>C</span><span>DEL</span><span>%</span><span class="operator">+</span>
+                <span>7</span><span>8</span><span>9</span><span class="operator">×</span>
+                <span>4</span><span>5</span><span>6</span><span class="operator">−</span>
+                <span>1</span><span>2</span><span>3</span><span class="operator">÷</span>
+                <span class="zero">0</span><span>.</span><span class="operator equals">=</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Calculator</h3>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <p>シンプルな電卓アプリです。基本的な四則演算（＋−×÷）とC（クリア）、DEL（1文字削除）、%（パーセント）に対応する予定です。</p>
+              <a class="project-link" href="https://github.com/rasel-891/calculator" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i> GitHub Repository <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <a class="button button-small" href="https://rasel-891.github.io/calculator/" target="_blank" rel="noreferrer">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <h2 class="section-title"><i class="fa-regular fa-envelope"></i> Contact</h2>
+          <p class="section-subtitle">ご連絡は下記の方法でお願いします。お気軽にどうぞ！</p>
+          <div class="contact-detail"><i class="fa-regular fa-envelope"></i><div><b>Email</b><a href="mailto:raselmiahjp431@gmail.com">raselmiahjp431@gmail.com</a></div></div>
+          <div class="contact-detail"><i class="fa-brands fa-github"></i><div><b>GitHub</b><a href="https://github.com/rasel-891" target="_blank" rel="noreferrer">github.com/rasel-891</a></div></div>
+        </div>
+        <form class="contact-form">
+          <div class="form-row"><input type="text" name="name" placeholder="Your Name" aria-label="Your Name" required><input type="email" name="email" placeholder="Your Email" aria-label="Your Email" required></div>
+          <textarea name="message" placeholder="Message" aria-label="Message" rows="4" required></textarea>
+          <button class="button button-primary" type="submit"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+          <p class="form-note">Demo form only — connect a form service or backend to receive messages.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#home">Rasel <b>Ahmed</b></a>
+      <p>© 2026 Rasel Ahmed. All rights reserved.</p>
+      <div><a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div>
+    </div>
+  </footer>
+
+  <script>
+    const menuButton = document.querySelector(".menu-toggle");
+    const nav = document.querySelector(".nav-links");
+    menuButton.addEventListener("click", () => {
+      const isOpen = nav.classList.toggle("open");
+      menuButton.setAttribute("aria-expanded", isOpen);
+      menuButton.innerHTML = isOpen
+        ? '<i class="fa-solid fa-xmark"></i>'
+        : '<i class="fa-solid fa-bars"></i>';
+    });
+    nav.querySelectorAll("a").forEach(link => {
+      link.addEventListener("click", () => {
+        nav.classList.remove("open");
+        menuButton.setAttribute("aria-expanded", "false");
+        menuButton.innerHTML = '<i class="fa-solid fa-bars"></i>';
+      });
+    });
+    document.querySelector(".theme-toggle").addEventListener("click", () => {
+      document.body.classList.toggle("light-theme");
+    });
+    document.querySelector(".contact-form").addEventListener("submit", event => {
+      event.preventDefault();
+      alert("This is a demo form. Connect it to a backend or form service to send messages.");
+    });
+  </script>
+</body>
+</html>
